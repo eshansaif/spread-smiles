@@ -1,0 +1,34 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#donate-now {
+    width: 50%;
+    margin: auto auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.upper-part {
+    color: white;
+    /* text-align: center; */
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#ff5959c3, #FF5959);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
