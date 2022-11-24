@@ -7,6 +7,14 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-size: 45px;
+}
+
+h3:not(.donate-plans h3) {
+    font-size: 38px;
+}
+
 #donate-now {
     width: 50%;
     margin: auto auto;
@@ -31,4 +39,81 @@ h1 {
     background-image: linear-gradient(#ff5959c3, #FF5959);
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.center-content {
+    width: 50%;
+    margin: auto auto;
+    width: 50%;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 50px;
+}
+
+
+
+.donate-tk {
+    display: flex;
+}
+
+.amount-digit {
+    text-align: center;
+    /* box-shadow: 5px 5px 5px grey; */
+    background-color: #f8f8f8;
+    padding: 0px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: gray;
+    border-radius: 5px;
+}
+
+#red-bg {
+    border: 2px solid red;
+    background-color: hsl(0, 27%, 92%);
+    color: red;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+::placeholder {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.donate-plans {
+    display: flex;
+    width: 75%;
+    margin: auto auto;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 80px;
+}
+
+.single-plan {
+    text-align: left;
+    background-color: rgba(79, 157, 166, .2);
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 33%;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, .2);
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, .2);
+}
+
+#education {
+    background-color: rgba(255, 255, 0, .2);
 }
