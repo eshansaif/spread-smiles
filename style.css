@@ -20,7 +20,7 @@ h3:not(.donate-plans h3) {
     margin: auto auto;
     width: 50%;
     text-align: center;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .upper-part {
@@ -90,7 +90,7 @@ input[type=text] {
 
 .donate-plans {
     display: flex;
-    width: 75%;
+    width: 70%;
     margin: auto auto;
     text-align: center;
     /* padding-top: 50px; */
@@ -116,4 +116,86 @@ input[type=text] {
 
 #education {
     background-color: rgba(255, 255, 0, .2);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.be-humble {
+    color: #FF5959;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}
+
+.newsletter {
+    width: 50%;
+    background-color: rgba(255, 255, 0, .17);
+    padding: 70px 100px;
+
+}
+
+input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.516);
+    /* border-bottom: 2px solid gray; */
+
+}
+
+.two-part {
+    display: flex;
+}
+
+.half-width {
+    width: 35%;
+    margin: auto auto;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 50px;
+
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.menu {
+
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+a:link,
+a {
+
+    color: white;
+    padding: 0x 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+a:hover,
+a:active {
+    background-color: red;
+    color: black;
 }
